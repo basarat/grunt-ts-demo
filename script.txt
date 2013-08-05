@@ -1,0 +1,27 @@
+We have a very basic application. 
+
+Debug the typescript in developer tools 
+Place a breakpoint at animal 
+You can see the call stack 
+You can observe variables 
+
+Lets create a new file. 
+Lets call it human cause we are animals. And hummans (especially developers) eat pizza.
+Now you need to go in and add all these references. 
+You index.html 
+You main.ts
+While all that you wanted was that animal should come before other files and main.ts should come after 
+-
+Additionally when the signature changes. e.g. lets remove the speak function. It still compiles. 
+However its a runtime + compiletime error
+
+It can merge all your files for you as well using the typescript compiler. 
+
+What I would do is that I would have this running in some corner
+and it will tell me when I have broken something.
+
+Reference.ts is generated for you.
+You can have additional files + comments  in this section as well and they all stick around. 
+e.g. Say you want cow to come before all animals. Thats fine. 
+Move it outside and now it will not get added inside
+
