@@ -1,7 +1,12 @@
+Hey everybody, basarat here, and Today we are going to talk about how you 
+can streamline your typescript development experience. 
+We will go through a basic application and show the simple workflow. 
+And then use a grunt plugin to smooth out the routine tasks. 
+
 We have a very basic application. 
 
 Lets create a new file. 
-Lets call it human cause we are animals. And hummans (especially developers) eat pizza.
+Lets call it human cause well, humans are animals. And humans (especially developers) eat pizza.
 Now you need to go in and add all these references. 
 You index.html 
 You main.ts
@@ -9,6 +14,9 @@ While all that you wanted was that animal should come before other files and mai
 -
 Additionally when the signature changes. e.g. lets remove the speak function. It still compiles. 
 However its a runtime + compile time error
+
+Maintaining all this is not a lot but it is just "Grunt" work that you are doing.
+And I'd rather offload it. 
 
 Grunt-TS 
 Lets see our optomized workflow with grunt-ts 
