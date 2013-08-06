@@ -1,7 +1,7 @@
 Hey everybody, basarat here, and Today we are going to talk about how you 
 can streamline your typescript development experience. 
 We will go through a basic application and show the simple workflow. 
-And then use a grunt plugin to smooth out the routine tasks. 
+ And then use a grunt plugin to smooth out the routine tasks. 
 
 We have a very basic application. 
 
